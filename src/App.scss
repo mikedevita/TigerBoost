@@ -1,0 +1,40 @@
+@import 'bootstrap/scss/bootstrap';
+
+body {
+  background-color: #333333;
+}
+
+#PowerChartContainer {
+  width: 725px;
+  height: 619px;
+  background-image: url('assets/powerchart-container.png');
+  position: absolute;
+}
+
+#ChartContent {
+  margin-top: 94px;
+  margin-left: 33px;
+  position: relative;
+  margin-right: 31px;
+  height: 389px;
+}
+
+.consumption {
+  color: #E59344;
+}
+
+.production {
+  color: #727273;
+}
+
+.capacity {
+  color: #D0CFCF;
+}
+
+.max_consumption {
+  color: #5CB0C5;
+}
+
+.power_boost {
+  color: #A779A7;
+}
